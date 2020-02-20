@@ -1,0 +1,27 @@
+{
+  "name": "elastic-feeder",
+  "version": "1.0.0",
+  "description": "elastic data transformation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnbriglio/elastic-feeder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnbriglio/elastic-feeder/issues"
+  },
+  "homepage": "https://github.com/lnbriglio/elastic-feeder#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
